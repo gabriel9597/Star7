@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    opacity: 1; 
+    transform: none;
+}
+
+.footer-text p {
+    color: var(--text-color);
+}
+
+/*BreakPoints */
+
+@media (max-width: 1335px) {
+    .footer-text p {
+        font-size: 14px;
+    }
+}
