@@ -1,4 +1,4 @@
-import React, {useRef,useEffect,useState} from 'react'
+import React from 'react'
 import "./contato.css"
 import ImgContactForm from '../../Imagens/ImgContactform.jpg'
 import {FaUser} from "react-icons/fa6";
@@ -13,7 +13,7 @@ import Footer from '../Comp_Reut/Footer/footer';
 function Contato() {
     return (
            <div>
-                 <Header className='nav-link T3 active'/>
+                 <Header />
 
                  <motion.section initial={{ opacity: 0, x: -250 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5, duration: 2 }} className="heroS">
                     <div className="heroS-Cont">
@@ -58,6 +58,7 @@ function Contato() {
                 </motion.section>
 
                 <Footer />
+                
             </div>
     )
 }

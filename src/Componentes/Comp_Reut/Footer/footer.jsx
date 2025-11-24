@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import { FaCopyright } from 'react-icons/fa6'
 import {motion} from 'framer-motion'
 
 function Footer() {
@@ -26,7 +27,7 @@ function Footer() {
     <div>
         <footer className="footer overflow-hidden">
             <motion.div variants={variantsDTPFooter} initial="initial" whileInView="animate" className="footer-text">
-                <p>Copyright © {Ano} Star7 | Todos os Direitos Reservados</p>
+                <p>Copyright <FaCopyright /> {Ano} Star7 | Todos os Direitos Reservados</p>
             </motion.div>
         </footer>
     </div>

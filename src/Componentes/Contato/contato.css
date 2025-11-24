@@ -19,17 +19,6 @@
     }
 }
 
-
-.navbar-nav .nav-item .nav-link.T3::before {
-    content: '';
-    position: absolute;
-    left: 5px;
-    bottom: 1px;
-    width: 90%;
-    height: 1px;
-    background-color: var(--items-color);
-}
-
 .heroS {
     display: flex;
     flex-direction: column;
@@ -38,9 +27,6 @@
     gap: 32px;
     margin-bottom: 50px;
 }
-
-
-
 
 .heroS-Cont {
     display: flex;
@@ -237,14 +223,12 @@ form {
     width: 50%;
     height: 100%;
     margin-left: 50%;
-    /* margin-top: 17%; */
     margin-top: 4px;
     padding-right: 8px;
     padding-bottom: 17px;
     align-items: center;
     display: flex;
     justify-content: center;
-    /*background-color: var(--background-cfi);*/
     border-radius: 0px 30px 46px 0px;
 }
 
@@ -269,7 +253,7 @@ form {
 .toggle-panel h1{
     overflow: hidden;
     font-size: calc(1.175rem + 1.5vw);
-    color: #fff/*#0bfde7*/;
+    color: #fff;
     margin-top: 12px;
 }
 
@@ -282,10 +266,7 @@ form {
     background: rgb(0, 174, 255);
     border-radius: 0.5rem;
     height: 60vh;
-    /*overflow: hidden;*/
     width: 300px;
-    /*display: flex;
-    justify-content: center;*/
     text-align: center;
     margin: 0 auto;
     padding: 2em;
@@ -300,7 +281,6 @@ form {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    /*inset: -.5rem;*/
     z-index: -1;
     background: conic-gradient(
         from var(--gradient-angle),
@@ -309,7 +289,6 @@ form {
         var(--clr-3),
         var(--clr-2),
         var(--clr-1));
-    /*border-radius: inherit;*/
     animation: rotation 20s linear infinite;
 }
 
@@ -320,7 +299,7 @@ form {
     margin-top: 30px;
 }
 
-/* breakpoints */
+/* Breakpoints */
 
 @media (max-width: 991px) {
     .contact-section {

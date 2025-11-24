@@ -2,40 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
-.navbar-nav .nav-item .nav-link.I:hover::after {
-    width: 95%;
-}
-
-.navbar-nav .nav-item .nav-link.I::after {
-    content: '';
-    position: absolute;
-    left: 2px;
-    bottom: 1px;
-    width: 0;
-    height: 1px;
-    background-color: var(--items-color);
-    transition: 0.3s ease;
-}
-
-.navbar-nav .nav-item .nav-link.S2::before {
-    content: '';
-    position: absolute;
-    left: 10px;
-    bottom: 1px;
-    width: 87%;
-    height: 1px;
-    background-color: var(--items-color);
-}
-
-
 .treatments {
     position: relative;
     display: flex;
@@ -78,7 +44,7 @@
 .trt-div,
 .trt-div2 {
     position: relative;
-    width: /*1150px*/ 90%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,39 +114,39 @@
 /* BreakPoints */
 
 @media (max-width: 991px) {
-.trt-div,
-.trt-div2 {
-    flex-direction: column;
-    margin: -100px auto 0;
-    height: 970px;
+    .trt-div,
+    .trt-div2 {
+        flex-direction: column;
+        margin: -100px auto 0;
+        height: 970px;
     }
 
-.trt-div .trt-image-div,
-.trt-div2 .trt-image-div {
-    width: 500px;
-    height: 300px;
+    .trt-div .trt-image-div,
+    .trt-div2 .trt-image-div {
+        width: 500px;
+        height: 300px;
     }
 
-.trt-div .trt-text-box {
-    transform: translate(-7px, 20px);
-   }
-
-.trt-div2 .trt-text-box2 {
-    transform: translate(-8px, -25px);
+    .trt-div .trt-text-box {
+        transform: translate(-7px, 20px);
     }
 
-.trt-div .trt-text-box p,
-.trt-div2 .trt-text-box2 p {
-    text-align: center;
-}
+    .trt-div2 .trt-text-box2 {
+        transform: translate(-8px, -25px);
+    }
 
-.img-cta {
-    width: 500px;
-  }
+    .trt-div .trt-text-box p,
+    .trt-div2 .trt-text-box2 p {
+        text-align: center;
+    }
 
-.Cta-Text2 {
-    margin-left: 0px;
-}
+    .img-cta {
+        width: 500px;
+    }
+
+    .Cta-Text2 {
+        margin-left: 0px;
+    }
 
 }
 
@@ -192,8 +158,6 @@
     .img-cta {
         width: 90%;
         margin-left: 4%;
-        /* width: 420px;
-        margin-left: 15px;*/
     }
 }
 

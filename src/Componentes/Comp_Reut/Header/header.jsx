@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react'
+import React, {useState} from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import "./header.css"
 
@@ -78,20 +78,6 @@ function Header() {
                     </div>
 
                     <div className="offcanvas-body">
-                        {/*<motion.ul variants={variantsRTL2} initial="hidden" animate={isVisible ? "visible" : "hidden"} className="navbar-nav ms-auto">
-                            <li className='nav-item'>
-                                <Link to="/" className='nav-link I'><FaHouseChimney className='Menu-icons'/> Início</Link>
-                            </li>
-
-                            <li className='nav-item'>
-                                <Link to="/Tratamentos" className='nav-link S2'><FaTooth className='Menu-icons'/> Tratamentos</Link>
-                            </li>
-
-                            <li className='nav-item'>
-                                <Link to="/Contato" className='nav-link T'><FaPhone className='Menu-icons'/> Contato</Link>
-                            </li>
-                        </motion.ul>*/}
-
                         <motion.ul
                             variants={variantsRTL2}
                             initial="hidden"
@@ -112,19 +98,10 @@ function Header() {
                                 </li>
                             ))}
 
-                        </motion.ul>
+                         </motion.ul>
 
 
                         <button className='btn btn-M2'><Link to="/Contato" className="Sm-Link">Fale Conosco!</Link></button>
-
-                        {/*<div className='footer-header'>
-                                <h6>Fale Conosco Também por esses Meios:</h6>
-                                <div className='fh-icons'>
-                                    <a href="https://www.instagram.com/devs7x_institucional/" className='link-Rs'> <FaSquareInstagram className='footer-icons'/> </a>
-                                    <a href="https://api.whatsapp.com/send?phone=5511982747281" className='link-Rs'> <FaSquareWhatsapp className='footer-icons'/> </a>
-                                    <a href="mailto:gabrieldevs7x@gmail.com" className='link-Rs'><MdOutlineMail className='footer-icons'/></a>
-                                </div>
-                            </div>*/}
                     </div>
                 </div>
             </nav>

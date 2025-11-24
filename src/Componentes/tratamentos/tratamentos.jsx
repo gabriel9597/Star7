@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import "./tratamentos.css"
 
@@ -32,27 +32,9 @@ function Tratamentos() {
         }
     }
 
-    const variantsLTR = {
-        initial: {
-        x: -300,
-        opacity: 0
-        },
-        animate: {
-        x: 0,
-        opacity: 1,
-        transition: {
-            duration: 2,
-            staggerChildren: 0.1
-        }
-      }
-    }
-
-
-    const Mov2 = useRef();
-
     return (
         <div>
-            <Header className='nav-link S2 active'/>
+            <Header />
 
             <motion.section initial={{ opacity: 0, x: -250 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5, duration: 2 }} className="heroS">
                 <div className="heroS-Cont">

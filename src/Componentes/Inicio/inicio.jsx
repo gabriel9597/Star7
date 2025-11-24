@@ -14,7 +14,7 @@ import ImgService1 from "../../Imagens/imgservice1.png";
 import ImgService2 from "../../Imagens/imgservice2.jpg";
 import ImgService3 from "../../Imagens/imgservice3.png";
 import ImgService4 from "../../Imagens/imgservice4.png";
-import { FaCopyright,FaQuoteLeft,FaQuoteRight} from "react-icons/fa6";
+import {FaQuoteLeft,FaQuoteRight} from "react-icons/fa6";
 import { IoPlayBack } from "react-icons/io5";
 import {
     IoIosArrowBack,

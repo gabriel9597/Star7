@@ -83,48 +83,6 @@
   to   { width: 100%; }
 }
 
-
-.navbar-nav .nav-link.active {
-    color: #28a6bb !important;
-}
-
-.navbar-nav .nav-item .nav-link.active::before {
-    content: '';
-    position: absolute;
-    left: 2px;
-    bottom: 1px;
-    width: 95%;
-    height: 1px;
-    background-color: var(--items-color);
-}
-
-.navbar-nav .nav-item .nav-link.S:hover::after,
-.navbar-nav .nav-item .nav-link.T:hover::after {
-    width: 95%;
-}
-
-.navbar-nav .nav-item .nav-link.S::after {
-    content: '';
-    position: absolute;
-    left: 5px;
-    bottom: 1px;
-    width: 0;
-    height: 1px;
-    background-color: var(--items-color);
-    transition: 0.3s ease;
-}
-
-.navbar-nav .nav-item .nav-link.T::after {
-    content: '';
-    position: absolute;
-    left: 2px;
-    bottom: 1px;
-    width: 0;
-    height: 1px;
-    background-color: var(--items-color);
-    transition: 0.3s ease;
-}
-
 /*BreakPoints*/
 
 @media(max-width: 991px) {
@@ -180,18 +138,6 @@
 
     .nav-link:not(.activeLink):hover::after {
         width: 0%;
-    }
-
-    .navbar-nav .nav-item .nav-link.active::before,
-    .navbar-nav .nav-item .nav-link.S::after,
-    .navbar-nav .nav-item .nav-link.T::after {
-        left: 0;
-        background-color: #fff !important;
-        width: 100%;
-    }
-
-    .navbar-nav .nav-item .nav-link.S:hover::after {
-        width: 100%;
     }
 
     #b-Menu {

@@ -287,7 +287,7 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
 
 .ops-Row {
     display: flex;
-    margin-top: -10px; /*0px 0px -40px;*/
+    margin-top: -10px;
 }
 
 .ops-group {
@@ -299,8 +299,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
     align-items: center;
     display: flex;
     justify-content: center;
-    /*height: 100%;
-    min-height: calc(16*4);*/
     position: relative;
     width: 100%;
 }
@@ -309,7 +307,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
     transition: color 0.2s;
     width: 100%;
     font-size: 1.2rem;
-    /*margin-left: 5px;*/
     background-color: #28a6bb;
     color: white;
     border: none;
@@ -325,10 +322,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
     display: flex;
     padding: 0 20px;
 }
-
-/*.si-2, .si-3, .si-4 {
-    display: none;
-}*/
 
 .Service-Left-Side {
     width: 55%;
@@ -432,10 +425,9 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
 
 .total .thumbnail img {
     object-fit: cover;
-    width: 100% /*87%*/;
-    height: 100% /*90%*/;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    /*margin-top: 20px;*/
 }
 
 .total .aside {
@@ -606,21 +598,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
     }
 }
 
-
-@media(min-width: 1024px) {
-    /*.S-Ex-Container {
-        padding: 32px 0;
-    }
-
-    .S-Ex-Container, .S-Ex-Content {
-        padding: 32px 0;
-    }
-
-    .S-Ex-Content, .ops-Cont {
-        padding: 32px 0;
-    }*/
-}
-
 @media (min-width: 992px) {
     .Menu-icons,
     .btn-M2,
@@ -709,9 +686,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
     .Option-Dropdown {
         position: relative;
         width: 250px;
-        /*margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 25px;*/
         margin: 3px auto 25px;
     }
 
@@ -724,11 +698,10 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
         font-size: 20px;
         display: flex;
         justify-content: center;
-        align-items: /*flex-start*/ center;
+        align-items: center;
         border-radius: 5px;
         cursor: pointer;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        /*padding-top: 20px;*/
         overflow: hidden;
         border: 3px solid white;
     }
@@ -781,11 +754,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
     .right-icon2 {
         top: 19px !important;
     }
-
-    /*.dropdown .left-icon3,
-    .right-icon3 {
-        top: 17px !important;
-    }*/
 
     .dropdown .left-icon4,
     .right-icon4 {
@@ -861,9 +829,7 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
         top: 0;
         left: 0;
         width: 100%;
-        /*height: 370px;*/
         margin-top: 45px;
-        /* background-color: #16455c; */
     }
 
     .dropdown .Services-Items .Services-Links {
@@ -871,10 +837,8 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
         left: 100%;
         display: flex;
         font-size: 20px;
-        /*background: white;*/
         color: white;
         text-decoration: none;
-        /*border-radius: 5px;*/
         padding: 11px 15px;
         margin-top: 1px;
         z-index: 1;
@@ -895,7 +859,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
         left: 0;
         width: 100%;
         height: 100%;
-        /*background: aqua;*/
         z-index: -1;
         border-radius: inherit;
         transform: rotate(160deg);
@@ -945,7 +908,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
     .CardEx-Items {
         flex-direction: column;
         margin-left: 12px;
-        /*width: 435px !important;*/
     }
 
     .Card {
@@ -954,10 +916,6 @@ Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o nú
 }
 
 @media (max-width: 880px) {
-    /*.cta-row img {
-        margin-left: 25px;
-    }*/
-
     .cta-section {
         background-position: bottom;
     }
