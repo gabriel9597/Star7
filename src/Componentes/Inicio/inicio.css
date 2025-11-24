@@ -13,7 +13,7 @@
 
 .Hero {
     margin-top: 50px;
-    padding: 0px 40px 0px 42px/*Valor a Analisar*/;
+    padding: 0px 40px;
 }
 
 .Hero-Col-Left {
@@ -97,11 +97,7 @@
     margin: auto;
 }
 
-.Card .Titles-Ex1,
-.Card .Titles-Ex2,
-.Card .Titles-Ex3,
-.Card .Titles-Ex4 /* Analisar depois para ver se precisará editar na parte da responsividade
-Caso não tira os outros 3(aqui e no html) e deixar somente o primeiro(sem o número 1) */ {
+.Card .Titles-Ex {
     color: var(--text-color);
     font-size: 1.2rem;
     overflow: hidden;

@@ -219,10 +219,10 @@ function Inicio() {
                     </div>
 
                     <div className="CardEx-Items d-flex overflow-hidden">
-                        <div className="Card d-flex"><IoPlayBack className='dt-card-icons'/><span className="Titles-Ex1">Seu Sorriso de Volta</span></div>
-                        <div className="Card d-flex"><RiShining2Fill className='dt-card-icons'/><span className="Titles-Ex2">Dentes Branquinhos</span></div>
-                        <div className="Card d-flex"><FaTooth className='dt-card-icons'/><span className="Titles-Ex3">Zero Cáries e Tártaros</span></div>
-                        <div className="Card d-flex"><BiHappyAlt className='dt-card-icons'/><span className="Titles-Ex4">Alinhamento Dentário</span></div>
+                        <div className="Card d-flex"><IoPlayBack className='dt-card-icons'/><span className="Titles-Ex">Seu Sorriso de Volta</span></div>
+                        <div className="Card d-flex"><RiShining2Fill className='dt-card-icons'/><span className="Titles-Ex">Dentes Branquinhos</span></div>
+                        <div className="Card d-flex"><FaTooth className='dt-card-icons'/><span className="Titles-Ex">Zero Cáries e Tártaros</span></div>
+                        <div className="Card d-flex"><BiHappyAlt className='dt-card-icons'/><span className="Titles-Ex">Alinhamento Dentário</span></div>
                     </div>
                 </div>
             </motion.section>
